@@ -1,3 +1,7 @@
+button {
+    cursor: pointer;
+}
+
 .subscribe-button {
     background-color: rgb(200, 0, 0);
     color: white;
@@ -5,8 +9,16 @@
     height: 36px;
     width: 105px;
     border-radius: 2px;
-    cursor: pointer;
     margin-right: 8px;
+    transition: opacity 0.35s;
+}
+
+.subscribe-button:hover {
+    opacity: 0.75;
+}
+
+.subscribe-button:active {
+    opacity: 0.5;
 }
 
 .join-button {
@@ -18,8 +30,17 @@
     height: 36px;
     width: 62px;
     border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px
+    margin-right: 8px;
+    transition: background-color .35s, color 0.35s;
+}
+
+.join-button:hover {
+    background-color: rgb(115, 115, 223);
+    color: white;
+}
+
+.join-button:active {
+    opacity: 0.7;
 }
 
 .tweet-button {
@@ -31,7 +52,11 @@
     border-radius: 18px;
     font-weight: bold;
     font-size: 15px;
-    cursor: pointer;
+    /* box-shadow: 0px 10px 10px rgba(0, 0, 0, .15); */
+}
+
+.tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
 }
 
 /* 2a. Uber */
@@ -100,6 +125,7 @@
     margin-top: 15px;
     margin-right: 8px;
     height: 36px;
+    margin-bottom: 15px;
 }
 
 .apply-button {
@@ -123,3 +149,29 @@
 }
 
 /* 2f. Continuing exercise from 1g */
+
+a {
+    color: rgb(0, 113, 133);
+}
+
+.cost-text {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+}
+
+.add-to-cart-button, .buy-now-button {
+    height: 36px;
+    width: 115px;
+    border-radius: 18px;
+}
+
+.add-to-cart-button {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    margin-right: 8px;
+}
+
+.buy-now-button {
+    background-color: rgb(255, 164, 28);
+    border: none;
+}
