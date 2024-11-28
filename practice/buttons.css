@@ -1,0 +1,125 @@
+.subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.join-button {
+    background-color: white;
+    border-color: rgb(115, 115, 223);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(115, 115, 223);
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px
+}
+
+.tweet-button {
+    background-color: rgb(142, 142, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* 2a. Uber */
+
+.request-button {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    margin-right: 8px;
+}
+
+/* 2b. Amazon */
+
+.cart-button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    height: 36px;
+    width: 150px;
+    border-radius: 18px;
+    margin-right: 8px;
+}
+
+/* 2c. GitHub */
+
+.sign-up-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    height: 36px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* 2d. Bootstrap */
+
+.get-started-button, .download-button {
+    margin-top: 15px;
+    margin-right: 8px;
+    height: 36px;
+    width: 115px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.get-started-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+}
+
+.download-button {
+    background-color: white;
+    color: rgb(108, 117, 125);
+}
+
+/* 2e. LinkedIn */
+
+.apply-button, .save-button {
+    margin-top: 15px;
+    margin-right: 8px;
+    height: 36px;
+}
+
+.apply-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    width: 210px;
+    border-radius: 18px;
+    font-weight: bold;
+}
+
+.save-button {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 18px;
+    width: 70px;
+    font-weight: bold;
+}
+
+/* 2f. Continuing exercise from 1g */
