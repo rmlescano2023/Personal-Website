@@ -3,14 +3,13 @@ button {
 }
 
 .subscribe-button {
-    background-color: rgb(200, 0, 0);
+    background-color: #cc0000;
     color: white;
     border: none;
-    height: 36px;
-    width: 105px;
     border-radius: 2px;
     margin-right: 8px;
-    transition: opacity 0.35s;
+    transition: opacity 0.15s;
+    padding: 10px 16px;
 }
 
 .subscribe-button:hover {
@@ -23,15 +22,15 @@ button {
 
 .join-button {
     background-color: white;
-    border-color: rgb(115, 115, 223);
+    border-color: #065fd4;
     border-style: solid;
     border-width: 1px;
-    color: rgb(115, 115, 223);
-    height: 36px;
-    width: 62px;
+    color: #065fd4;
     border-radius: 2px;
     margin-right: 8px;
-    transition: background-color .35s, color 0.35s;
+    transition: background-color .15s, color 0.15s;
+    padding: 9px 16px;
+    vertical-align: top;
 }
 
 .join-button:hover {
@@ -44,15 +43,15 @@ button {
 }
 
 .tweet-button {
-    background-color: rgb(142, 142, 255);
+    background-color: #1d9bf0;
     color: white;
     border: none;
-    height: 36px;
-    width: 74px;
-    border-radius: 18px;
+    border-radius: 50px;
     font-weight: bold;
     font-size: 15px;
-    transition: box-shadow 0.5s;
+    transition: box-shadow 0.15s;
+    padding: 9px 16px;
+    vertical-align: top;
 }
 
 .tweet-button:hover {
@@ -235,4 +234,65 @@ a:hover {
 
 .buy-now-button:active {
     opacity: 0.5;
+}
+
+/* 4h. Pagination */
+
+.back-button, .next-button {
+    padding: 5px;
+    margin: 15px 8px 0px 8px;  /* top right bottom left  */
+}
+
+.page-links {
+    color: blue;
+    margin: 4px 4px;
+}
+
+/* 4i. Stretch */
+
+.stretch-button {
+    margin-top: 15px;
+    padding: 5px 10px;
+    background-color: green;
+    border: none;
+    color: white;
+    transition: padding 1s;
+}
+
+.stretch-button:hover {
+    padding: 15px 30px;
+}
+
+/* 4j. 3D Click */
+
+.shadow-button {
+    margin-top: 15px;
+    padding: 5px 10px;
+    background-color: green;
+    border: none;
+    color: white;
+    box-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.4);
+    transition: margin-top 0.15s, margin-left 0.15s, box-shadow 0.15s;
+}
+
+.shadow-button:active {
+    margin-top: 16.5px;
+    margin-left: 2px;
+    box-shadow: none;
+}
+
+/* 4k. Margin and padding together */
+
+.one-button, .two-button, .three-button {
+    padding: 5px 10px;
+    margin: 15px 10px;  /* top&bottom left&right */
+    background-color: green;
+    border: none;
+    color: white;
+    transition: padding .25s, margin .25s;
+}
+
+.one-button:hover, .two-button:hover, .three-button:hover {
+    padding: 5px 15px;
+    margin: 15px 5px;
 }
