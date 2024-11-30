@@ -1,7 +1,47 @@
 /* video-title */
 
+p {
+    font-family: Arial;
+    margin-top: 0px;
+}
+
 .video-title {
     font-weight: bold;
+    font-size: 20px;
+    width: 350px;
+    line-height: 24px;
+    margin-bottom: 2px;
+}
+
+.video-stats {
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 16px;
+}
+
+.video-author {
+    color: #606060;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.video-description {
+    color: #606060;
+    font-size: 14px;
+    width: 270px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.shop-details {
     font-family: Arial;
-    font-size: 30px;
+    font-size: 14px;
+    color: white;
+    background-color: #e34140;
+    padding: 16px;
+    text-align: center;
+}
+
+.shop-now:hover {
+    text-decoration: underline;
 }
