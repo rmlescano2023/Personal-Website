@@ -42,6 +42,161 @@ p {
     text-align: center;
 }
 
+.shop-now {
+    margin-left: 15px;
+}
+
 .shop-now:hover {
     text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Lesson 5 Exercises - Text Styles */
+
+.tahoma-text {
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.arial-text-1, .arial-text-2 {
+    font-family: Arial;
+    margin: 0px;
+}
+
+.arial-text-1 {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.arial-text-2 {
+    font-size: 15px;
+    font-style: italic;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.verdana-title, .verdana-sub-title, .verdana-description {
+    font-family: Verdana;
+    margin: 0px;
+}
+
+.verdana-title {
+    font-weight: bold;
+}
+
+.verdana-sub-title {
+    color: gray;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.verdana-description {
+    font-size: 13px;
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+.arial-title, .arial-description, .arial-learn-more {
+    font-family: Arial;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.arial-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.arial-learn-more {
+    color: blue;
+    margin-bottom: 30px;
+}
+
+.arial-e-1, .arial-e-2, .arial-e-3, .arial-e-4, .arial-e-5 {
+    font-family: Arial;
+    text-align: center;
+    margin: 0px;
+}
+
+.arial-e-1 {
+    color: rgb(206, 134, 1);
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.arial-e-2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arial-e-3 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.arial-e-4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.arial-e-button {
+    display: block;
+    margin: auto;
+    background-color: rgb(86, 86, 255);
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 18px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.arial-f-1, .arial-f-1-usd, .arial-f-2, .arial-f-3, .arial-f-3-numbers {
+    font-family: Arial;
+    margin-bottom: 10px;
+}
+
+.arial-f-1 {
+    font-size: 40px;
+}
+
+.arial-f-1-usd {
+    font-size: 18px;
+    color: gray;
+}
+
+.arial-f-2 {
+    color: red;
+}
+
+.arial-f-3 {
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.arial-f-3-numbers {
+    color: red;
+}
+
+.arial-g-1, .arial-g-1-text, .arial-g-2, .arial-g-3, .arial-g-3-text {
+    font-family: Arial;
+    margin-bottom: 5px;
+}
+
+.arial-g-1-text {
+    color: rgb(119, 119, 119);
+}
+
+.arial-g-2 {
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.arial-g-3-text {
+    color: rgb(139, 139, 255);
 }
