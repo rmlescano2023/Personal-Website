@@ -1,0 +1,114 @@
+img, input, button {
+    margin-bottom: 25px;
+}
+
+.youtube-image {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    object-position: center;
+    border: 2px solid red;
+}
+
+.search-bar {
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.grad-pic-1 {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.grad-pic-2 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.grad-pic-3 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100px;
+}
+
+.input-7-d {
+    padding: 6px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+
+.input-7-e {
+    width: 400px;
+    padding: 6px;
+    padding-left: 12px;
+    border: none;
+    border-radius: 200px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+p {
+    font-family: Arial;
+}
+
+.email-text {
+    font-size: 8px;
+    color: gray;
+    margin-bottom: 3px;
+}
+
+.linkedin-input {
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.linkedin-description {
+    font-size: 8px;
+    color: gray;
+}
+
+.agree-button {
+    background-color: rgb(74, 74, 228);
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    width: 207px;
+    border: none;
+    border-radius: 100px;
+}
+
+.twitter-pic {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.twitter-textbox {
+    margin: 0;
+    vertical-align: middle;
+    font-size: 10px;
+    padding: 5px;
+    width: 160px;
+    border: none;
+}
+
+.tweet-button {
+    margin: 0;
+    font-style: Arial;
+    font-weight: bold;
+    background-color: rgb(141, 141, 241);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 9px;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
